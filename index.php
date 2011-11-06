@@ -8,7 +8,7 @@
     <title><?php bloginfo( 'name' ); ?><?php wp_title( '&mdash;' ); ?></title>
     <?php if ( is_singular() && get_option( 'thread_comments') ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
-  <script type="text/javascript" src="http://hackerslab.eu/mathjax/MathJax.js"></script>
+  <script type="text/javascript" src="http://hackerslab.eu/mathjax/MathJax.js?config=default"></script>
   </head>
   <body <?php body_class(); ?>>
     <div id="container">
