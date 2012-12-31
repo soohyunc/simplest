@@ -38,10 +38,10 @@ h1 a {text-decoration:none;}
 h1 a:hover {text-decoration:underline;}
 h1,h2,h3,h4,h5,h6 {clear:both;}
 
-#container {width:768px; margin:2em auto;}
-#header #description {margin-top:-1.5em;}
+#container {font-family:Arial; width:768px; margin:2em auto;}
+#header #description {font-family:Arial; margin-top:-1.5em;}
 #header li {display:inline; margin:0 0.5em 0 0;}
-#content {margin-top:3.5em;}
+#content {font-family:Arial; font-size:0.95em; margin-top:3.5em;}
 .hentry, .meta, #respond {margin-bottom:2em; padding-bottom:1em; border-bottom:1px solid #ddd;}
 .hentry h2, .hentry h3, .hentry h4 {margin-top:2em;}
 
